@@ -28,15 +28,6 @@ If you are using this plugin in your project [we would love to hear about it](ma
 3. Activate the plugin through the 'Plugins' menu in WordPress
 4. Configure the plugin via the 'Restrict Passwords by Role' options page under the WordPress 'Settings' Menu
 
-== Screenshots ==
-
-1. Meta Box to set permissions on hierarchical content
-2. Meta Box on sub-content, showing override options
-3. Meta Box on sub-content, overriding parent permissions
-4. Options page (more options available)
-5. Meta box to set admin permissions on hierarchical content
-6. After admin permission set, an editor can no longer see the page in the admin panel
-
 == Changelog ==
 
 = 1.0.0 =
