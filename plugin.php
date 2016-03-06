@@ -25,17 +25,20 @@ require_once "php/class.MainController.php";
 require_once "php/class.Options.php";
 require_once "php/class.AssetsController.php";
 require_once "php/class.AccessController.php";
+require_once "php/class.LoginErrors.php";
 
 // Use Namespaces
 use mkdo\restrict_passwords_by_role\MainController;
 use mkdo\restrict_passwords_by_role\Options;
 use mkdo\restrict_passwords_by_role\AssetsController;
 use mkdo\restrict_passwords_by_role\AccessController;
+use mkdo\restrict_passwords_by_role\LoginErrors;
 
 // Initialize Classes
 $options           = new Options();
 $assets_controller = new AssetsController();
-$access_controller = new AccessController();
+$login_errors      = new LoginErrors();
+$access_controller = new AccessController( $login_errors );
 $controller        = new MainController( $options, $assets_controller, $access_controller );
 
 // Run the Plugin
