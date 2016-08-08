@@ -22,3 +22,4 @@ The plugin provides the following functionality:
 
 **1.0.0** - *06.03.2016* - First stable release.  
 **1.0.1** - *08.08.2016* - Added French Translation, and tested with latest version of WordPress.  
+**1.0.2** - *08.08.2016* - Committed again, with French Files  
