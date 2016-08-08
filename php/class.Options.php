@@ -35,10 +35,10 @@ class Options {
 		register_setting( 'MKDO_RPBR_settings_group', 'mkdo_rpbr_select_user_roles' );
 
 		// Add sections
-		add_settings_section( 'mkdo_rpbr_select_user_roles_section', 'Select User Roles', array( $this, 'mkdo_rpbr_select_user_roles_section_cb' ), 'MKDO_RPBR_settings' );
+		add_settings_section( 'mkdo_rpbr_select_user_roles_section', esc_html__( 'Select User Roles', MKDO_RPBR_TEXT_DOMAIN  ), array( $this, 'mkdo_rpbr_select_user_roles_section_cb' ), 'MKDO_RPBR_settings' );
 
     	// Add fields to a section
-		add_settings_field( 'mkdo_rpbr_select_user_roles_select', 'Restricted Roles:', array( $this, 'mkdo_rpbr_select_user_roles_cb' ), 'MKDO_RPBR_settings', 'mkdo_rpbr_select_user_roles_section' );
+		add_settings_field( 'mkdo_rpbr_select_user_roles_select', esc_html__( 'Restricted Roles:', MKDO_RPBR_TEXT_DOMAIN  ), array( $this, 'mkdo_rpbr_select_user_roles_cb' ), 'MKDO_RPBR_settings', 'mkdo_rpbr_select_user_roles_section' );
 	}
 
 	/**
@@ -46,7 +46,7 @@ class Options {
 	 */
 	public function mkdo_rpbr_select_user_roles_section_cb() {
 		echo '<p>';
-		esc_html_e( 'Check the user roles that you wish to prevent from changing or resetting their password.', MKDO_RPBR_TEXT_DOMAIN  );
+		esc_html_e( 'Check the user roles that you wish to prevent from changing or resetting their password.', MKDO_RPBR_TEXT_DOMAIN );
 		echo '</p>';
 	}
 
@@ -74,7 +74,7 @@ class Options {
 					<li>
 						<label>
 							<input type="checkbox" name="mkdo_rpbr_select_user_roles[]" value="<?php echo $key; ?>" <?php if ( in_array( $key, $mkdo_rpbr_select_user_roles ) ) { echo ' checked="checked"'; } ?> />
-							<?php echo $role['name'];?>
+							<?php _e( $role['name'] );?>
 						</label>
 					</li>
 					<?php

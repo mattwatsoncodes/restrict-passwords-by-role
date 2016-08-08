@@ -7,9 +7,9 @@
  * Plugin Name:       Restrict Passwords by Role
  * Plugin URI:        https://github.com/mkdo/restrict-passwords-by-role
  * Description:       Restrict users with certain User Roles from changing or resetting their password.
- * Version:           1.0.0
- * Author:            Make Do <hello@makedo.in>
- * Author URI:        http://www.makedo.in
+ * Version:           1.0.1
+ * Author:            Make Do <hello@makedo.net>
+ * Author URI:        http://www.makedo.net
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       restrict-passwords-by-role

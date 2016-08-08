@@ -21,3 +21,4 @@ The plugin provides the following functionality:
 ## Changelog
 
 **1.0.0** - *06.03.2016* - First stable release.  
+**1.0.1** - *08.08.2016* - Added French Translation, and tested with latest version of WordPress.  

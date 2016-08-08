@@ -3,8 +3,8 @@ Contributors: mkdo, mwtsn
 Donate link:
 Tags: password, reset, password reset, restrict password reset, user, role, user role
 Requires at least: 4.4
-Tested up to: 4.4
-Stable tag: 1.0.0
+Tested up to: 4.5
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,7 @@ The plugin provides the following functionality:
 * Prevent certain user roles from resetting their passwords
 * Prevent certain user roles from changing their passwords
 
-If you are using this plugin in your project [we would love to hear about it](mailto:hello@makedo.in).
+If you are using this plugin in your project [we would love to hear about it](mailto:hello@makedo.net).
 
 == Installation ==
 
@@ -32,3 +32,6 @@ If you are using this plugin in your project [we would love to hear about it](ma
 
 = 1.0.0 =
 * First stable release
+
+= 1.0.1 =
+* Added French Translation, and tested with latest version of WordPress
