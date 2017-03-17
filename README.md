@@ -2,6 +2,8 @@
 
 Restrict users with certain User Roles from changing or resetting their password.
 
+![Restrict Passwords by Role](https://github.com/mkdo/restrict-passwords-by-role/blob/master/assets/banner-1544x500.png?raw=true "Restrict Passwords by Role")
+
 ## About
 
 If you have a WordPress website with multiple users and several User Roles defined, and you wish to prevent certain User Roles from altering their passwords, then this plugin is for you.
