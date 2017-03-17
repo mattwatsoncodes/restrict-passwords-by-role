@@ -4,7 +4,7 @@ Donate link:
 Tags: password, reset, password reset, restrict password reset, user, role, user role
 Requires at least: 4.4
 Tested up to: 4.5
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,3 +38,6 @@ If you are using this plugin in your project [we would love to hear about it](ma
 
 = 1.0.2 =
 * Committed again, with French Files
+
+= 1.0.3 =
+* Added new artwork
